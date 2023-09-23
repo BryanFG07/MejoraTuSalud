@@ -1,0 +1,140 @@
+/*Rutinas*/
+.cont_ru{
+    margin: 15px;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(214, 30, 30);
+}
+.titulo{
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+.img_sec{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.regresar{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    opacity: 0.5;
+}
+.regresar:hover{
+    opacity: 0.9;
+    width: 95px;
+    height: auto;
+    cursor: pointer;
+
+}
+.home{
+    left: 90%;
+}
+.contenido{
+    width: 90%;
+    height: auto;
+    min-height: 500px;
+    margin:auto;
+    border: 2px dashed c;
+    border-radius: 15px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.pasos_contenedor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.pasos{
+    width: 30%;
+    height: 450px;
+    border: 2px solid rgb(102, 99, 99);
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.num{
+    border: solid 2px #666;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    background-color: #5F9EA0;
+    color: white;
+}
+.img_pasos{
+    width: 100%;
+    height: 190px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+.contenido_r{
+    width: 100%;
+    height: 150px;
+}
+
+/*Recetas de comida*/
+.cont{
+    width: 85%;
+    height: auto;
+    min-height: 800px;
+    border: dashed 3px #5F9EA0;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.nombre_rut{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.icono{
+    width: 80px;
+}
+.img_comida{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border: groove 4px #5F9EA0  ;
+}
+.ingredientes{
+    width: 80%;
+    height: auto;
+    min-height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border: solid 3px #5F9EA0;
+    border-radius: 15px;
+    font-size: 20px;
+    color: rgb(45, 42, 42);
+}
+.procedimiento{
+    width: 80%;
+    height: auto;
+    min-height: 400px;
+    margin: auto;
+    border: 3px solid #5F9EA0;
+    border-radius: 15px;
+    font-size: 20px;
+    color: rgb(45, 42, 42);
+    margin-top: 35px;
+}
+.imagen_comida{
+    width: 100%;
+    height: 100%;
+}
+
